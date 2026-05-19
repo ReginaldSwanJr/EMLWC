@@ -36,3 +36,12 @@ See Also
 [Salesforce Help: Customize the Enhanced Conversation Component in the Agent Console](https://help.salesforce.com/s/articleView?language=en_US&id=sf.messaging_customize_enhanced_conversation_component.htm)
 
 [Salesforce Help: Messaging Component Types and Formats](https://help.salesforce.com/s/articleView?language=en_US&id=sf.messaging_customize_enhanced_conversation_component.htm)
+
+
+# TODO:
+
+- [ ] fIX FILE NAMES
+- [ ] Render inital LWC
+- [ ] list custom fixes needed
+
+
