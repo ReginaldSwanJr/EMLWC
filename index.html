@@ -1,0 +1,21 @@
+<template>
+    <lightning-card title="LWC tool kit api" icon-name="custom:custom14">
+      <lightning-conversation-toolkit-api lwc:ref="lwcToolKitApi">
+      </lightning-conversation-toolkit-api>
+      <div>
+        {apiOutput}
+      </div>
+      <div>
+        <lightning-button label="getConversationLog" onclick={handleButtonClick} value="getConversationLog"></lightning-button>
+        <lightning-button label="sendTextMessage" onclick={handleButtonClick} value="sendTextMessage"></lightning-button>
+        <lightning-button label="setAgentInput" onclick={handleButtonClick} value="setAgentInput"></lightning-button>
+        <lightning-button label="endConversation" onclick={handleButtonClick} value="endConversation"></lightning-button>
+      </div>
+      <template for:each={log} for:item="item">
+        <li key={item}>
+          {item}
+        </li>
+      </template>
+       
+    </lightning-card>
+  </template>
